@@ -1,0 +1,10 @@
+venv/
+
+__pycache__/
+*.pyc
+
+posted_recipes.txt
+chromedriver
+debug_*.png
+debug_*.html
+.env
