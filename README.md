@@ -15,7 +15,7 @@ Một chương trình dùng Python được thiết kế để tự động tìm
 ## 🛠️ Hướng dẫn Cài đặt
 
 ### 1. Tải repository về máy
-```bash
+
 git clone https://github.com/lengoc-tuyen/Facebook-Fanpage-Auto-Poster.git
 cd Facebook-Fanpage-Auto-Poster
 
@@ -23,12 +23,12 @@ cd Facebook-Fanpage-Auto-Poster
 
 Việc này giúp các thư viện của dự án được tách biệt khỏi hệ thống.
 
-Bash
+
 python3.11 -m venv venv
 source venv/bin/activate
 3. Cài đặt các thư viện cần thiết
 
-Bash
+
 pip install -r requirements.txt
 4. Tải chromedriver
 
@@ -50,7 +50,7 @@ FACEBOOK_PAGE_ACCESS_TOKEN="YOUR_FACEBOOK_PAGE_ACCESS_TOKEN"
 🚀 Cách sử dụng
 Sau khi đã hoàn thành các bước cài đặt và cấu hình, bạn chỉ cần chạy bot từ Terminal:
 
-Bash
+
 python bot.py
 Bot sẽ bắt đầu quy trình làm việc: tìm công thức mới, tạo nội dung và đăng bài lên Fanpage của bạn.
 
